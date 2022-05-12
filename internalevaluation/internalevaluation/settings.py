@@ -4,7 +4,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-r!)ctn=1#)o7p=&i=ufo$-qeeon5zbl0d5lys7#jsa-)3n^sof'
-DEBUG = True
+DEBUG = False
 ALLOWED_HOSTS = [ '*' ]
 ROOT_URLCONF = 'internalevaluation.urls'
 WSGI_APPLICATION = 'internalevaluation.wsgi.application'
